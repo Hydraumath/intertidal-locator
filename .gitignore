@@ -1,0 +1,7 @@
+__pycache__/
+data/
+venv/
+dist/
+intertidal_locator.egg-info/
+docs/build/
+temp/

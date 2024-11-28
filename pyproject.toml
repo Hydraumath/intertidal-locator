@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "intertidal-locator"
+version = "1.0.0"
+description = "Tool to retrieve intertidal areas."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+  {name = "ThomasPDM", email = "thomas.pelissie_de_montemont@univ-lr.fr"},
+]
+maintainers = [
+  {name = "ThomasPDM", email = "thomas.pelissie_de_montemont@univ-lr.fr"},
+]
+requires-python = ">=3.9"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  'numpy',
+  'Pillow',
+  'requests'
+]
+
+[project.urls]
+"repository" = "https://github.com/Hydraumath/intertidal-locator"
+"Homepage" = "https://github.com/Hydraumath/intertidal-locator"
+"Bug Tracker" = "https://github.com/Hydraumath/intertidal-locator/issues"
+
+[tool.setuptools]
+py-modules = ["intertidal_locator"]
